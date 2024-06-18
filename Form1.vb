@@ -21,5 +21,8 @@
         TextBox1.Clear()
         TextBox1.Focus()
     End Sub
+    Private Sub cmdEjecutar_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Label1.Text = "El mayor es " & mayor & " El menor es " & menor & " Y la suma de los numeros es " & suma
+    End Sub
 
 End Class
